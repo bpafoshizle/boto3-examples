@@ -73,3 +73,5 @@ for message in queue.receive_messages(MessageAttributeNames=['Author']):
 
     # Let the queue know that the message is processed
     message.delete()
+
+# test git
